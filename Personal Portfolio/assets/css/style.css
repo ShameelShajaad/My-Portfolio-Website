@@ -1,11 +1,37 @@
-body{
-    /* background-color: #00bfff; */
-    background-color: #0e0e1a;
+body {
+  background-color: #0e0e1a;
+  padding-bottom: 50px;
 }
-.hero_image{
+.nav-link {
+  color: #00bfff;
+  font-size: 18px;
+}
+.nav-link.active {
+  background-color: #00bfff !important;
+  color: #0e0e1a !important;
+  font-weight: bold;
+}
+.hero_image {
     border-radius: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #00bfff;
+}
+.hero_image:hover {
+    box-shadow: 0 0 30px #00bfff;
+}
+.hero_heading_text {
+    color: #00bfff;
 }
 .hero_text{
     color: white;
     font-size: 25px;
+}
+.badge {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 0 20px #00bfff;
 }
