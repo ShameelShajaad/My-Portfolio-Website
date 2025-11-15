@@ -106,3 +106,42 @@ footer {
     transform: scale(1.2);
     filter: drop-shadow(0 0 8px #00bfff);
 }
+.about_card {
+  background-color: #1a1a2e;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.4s, box-shadow 0.4s;
+  color: #ffffff;
+}
+.about_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00bfff;
+}
+.card-icon {
+  width: 50px;
+  height: 50px;
+  filter: invert(1) brightness(2);
+}
+.achievement-list {
+  padding: 0;
+}
+.achievement-card {
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.achievement-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 0 15px #00bfff;
+}
+.achievement-year {
+  font-weight: bold;
+  color: #00bfff;
+  margin-right: 10px;
+}
+.container_padding {
+  padding: 0 15px;
+}
