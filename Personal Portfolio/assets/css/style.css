@@ -96,3 +96,13 @@ footer {
 .skills_tools {
   transition: transform 0.4s;
 }
+.social_icon {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: brightness(0) invert(1);
+}
+.social_links a:hover .social_icon {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px #00bfff);
+}
