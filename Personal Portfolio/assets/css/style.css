@@ -59,10 +59,6 @@ body {
 footer .nav-link {
   color: white;
 }
-footer p {
-  color: white;
-}
-
 footer .nav-link:hover {
   color: #00bfff;
 }
@@ -70,26 +66,33 @@ footer {
   padding-top: 20px;
   margin-top: 50px;
 }
+.btn-outline-info {
+  transition: background-color 0.3s, box-shadow 0.3s color 0.3s;
+}
 .btn-outline-info:hover {
   background-color: #00bfff;
   color: #0e0e1a;
   box-shadow: 0 0 15px #00bfff;
+  transition: 0.3s;
+}
+.project_card {
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 .project_card:hover {
   transform: translateY(-5px);
   transition: 0.5s;
   box-shadow: 0 0 20px #00bfff;
 }
-.direct_link{
+.direct_link {
   transition: transform 0.4;
 }
 .direct_link:hover {
   transition: 0.4s;
 }
-.skills_tools:hover{
+.skills_tools:hover {
   transform: translateY(-10px);
   transition: 0.4s;
 }
-.skills_tools{
+.skills_tools {
   transition: transform 0.4s;
 }
