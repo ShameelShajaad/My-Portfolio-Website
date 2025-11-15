@@ -35,9 +35,48 @@ body {
   transition: 0.3s;
   box-shadow: 0 0 20px #00bfff;
 }
-.container {
+.container_padding {
   padding-bottom: 100px;
 }
 .card-img-top {
   object-fit: cover;
+}
+.card {
+  background-color: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+.card-body p {
+  color: white;
+}
+.card-body a {
+  color: white;
+}
+footer .nav-link {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+footer .nav-link:hover {
+  color: #00bfff;
+}
+footer {
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.btn-outline-info:hover {
+  background-color: #00bfff;
+  color: #0e0e1a;
+  box-shadow: 0 0 15px #00bfff;
+}
+.project_card:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+  box-shadow: 0 0 20px #00bfff;
+}
+.direct_link:hover{
+  transition: 0.4s;
 }
