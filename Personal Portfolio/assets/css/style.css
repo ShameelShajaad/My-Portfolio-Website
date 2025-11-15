@@ -15,9 +15,11 @@ body {
   border-radius: 20%;
   transition: 0.3s;
   box-shadow: 0 0 15px #00bfff;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 .hero_image:hover {
   box-shadow: 0 0 30px #00bfff;
+  transition: 0.5s;
 }
 .hero_heading_text {
   color: #00bfff;
@@ -46,6 +48,7 @@ body {
   color: white;
   border: none;
   border-radius: 12px;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 .card-body p {
   color: white;
@@ -77,6 +80,16 @@ footer {
   transition: 0.5s;
   box-shadow: 0 0 20px #00bfff;
 }
-.direct_link:hover{
+.direct_link{
+  transition: transform 0.4;
+}
+.direct_link:hover {
   transition: 0.4s;
+}
+.skills_tools:hover{
+  transform: translateY(-10px);
+  transition: 0.4s;
+}
+.skills_tools{
+  transition: transform 0.4s;
 }
