@@ -12,19 +12,19 @@ body {
   font-weight: bold;
 }
 .hero_image {
-    border-radius: 20%;
-    transition: 0.3s;
-    box-shadow: 0 0 15px #00bfff;
+  border-radius: 20%;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #00bfff;
 }
 .hero_image:hover {
-    box-shadow: 0 0 30px #00bfff;
+  box-shadow: 0 0 30px #00bfff;
 }
 .hero_heading_text {
-    color: #00bfff;
+  color: #00bfff;
 }
-.hero_text{
-    color: white;
-    font-size: 25px;
+.hero_text {
+  color: white;
+  font-size: 25px;
 }
 .badge {
   font-size: 1rem;
@@ -34,4 +34,10 @@ body {
   transform: translateY(-5px);
   transition: 0.3s;
   box-shadow: 0 0 20px #00bfff;
+}
+.container {
+  padding-bottom: 100px;
+}
+.card-img-top {
+  object-fit: cover;
 }

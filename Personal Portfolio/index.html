@@ -1,98 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- NAVBAR -->
 
     <div class="container">
-      <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </header>
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </header>
     </div>
 
     <!-- Hero -->
 
     <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="assets/images/My image.png"
-            class="d-block mx-lg-auto img-fluid hero_image"
-            alt="Bootstrap Themes"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="assets/images/My image.png" class="d-block mx-lg-auto img-fluid hero_image"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3 hero_heading_text">
+                    Hey, I'm Shameel Software Engineering Student
+                </h1>
+                <p class="lead hero_text">
+                    I’m a Software Engineering student passionate about Java, web
+                    development and modern digital experiences. This is my portfolio
+                    built with Bootstrap.
+                </p>
+            </div>
         </div>
-        <div class="col-lg-6">
-          <h1
-            class="display-5 fw-bold lh-1 mb-3 hero_heading_text">
-            Hey, I'm Shameel Software Engineering Student
-          </h1>
-          <p class="lead hero_text">
-            I’m a Software Engineering student passionate about Java, web
-            development and modern digital experiences. This is my portfolio
-            built with Bootstrap.
-          </p>
-        </div>
-      </div>
     </div>
 
     <!-- SKILLS & TOOLS -->
 
     <div class="container text-center mt-5">
-      <h2 class="text-white mb-4">Skills & Tools</h2>
-      <div class="d-flex justify-content-center flex-wrap gap-3">
-        <span class="badge bg-primary">Java</span>
-        <span class="badge bg-info text-dark">HTML</span>
-        <span class="badge bg-warning text-dark">CSS</span>
-        <span class="badge bg-success">JavaScript</span>
-        <span class="badge bg-secondary">MySQL</span>
-        <span class="badge bg-dark">Git</span>
-        <span class="badge bg-info text-dark">VS Code</span>
-      </div>
+        <h2 class="text-white mb-4">Skills & Tools</h2>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+            <span class="badge bg-primary">Java</span>
+            <span class="badge bg-info text-dark">HTML</span>
+            <span class="badge bg-warning text-dark">CSS</span>
+            <span class="badge bg-success">JavaScript</span>
+            <span class="badge bg-secondary">MySQL</span>
+            <span class="badge bg-dark">Git</span>
+            <span class="badge bg-info text-dark">VS Code</span>
+        </div>
     </div>
+    <br>
+    <br>
 
-    <!-- FOOTER -->
+    <!-- FEATURED PROJECTS -->
 
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
-          </li>
-        </ul>
-        <p class="text-center text-body-secondary">© Shameel Shajaad</p>
-      </footer>
-    </div>
-    <script src="assets/js/app.js"></script>
-  </body>
+    <div class="container mt-5">
+        <h2 class="text-white text-center mb-4">Featured Projects</h2>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/Project - I Hungry Burger Shop.png"
+                            class="bd-placeholder-img card-img-top" height="400" width="100%" alt="Project Thumbnail">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Java project for Programming Fundamentals module (ICET Institute). A console-based
+                                burger shop order system with order ID generation, customer validation, and status
+                                tracking.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        <a href="https://github.com/ShameelShajaad/I-Hungry-Burger-Shop"
+                                            class="btn btn-sm">
+                                            View On Github
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/Project - Tax Calculator.png" class="bd-placeholder-img card-img-top"
+                            height="400" width="100%" alt="Project Thumbnail">
+                        <div class="card-body">
+                            <p class="card-text">
+                                A Java based console application that calculates various taxes and leasing payments
+                                including Withholding Tax, Income Tax, SSCL, and Leasing Installments.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        <a href="https://github.com/ShameelShajaad/Tax-Calculator" class="btn btn-sm">
+                                            View On Github
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/Project - School Website.png" class="bd-placeholder-img card-img-top"
+                            height="400" width="100%" alt="Project Thumbnail">
+                        <div class="card-body">
+                            <p class="card-text">
+                                This project is a multi-page responsive school website for D. S. Senanayake College,
+                                developed as part of the Internet Technologies module at ICET Institute.
+                            </p>
+                            <br>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        <a href="https://github.com/ShameelShajaad/Internet-Technologies---School-Website"
+                                            class="btn btn-sm">
+                                            View On Github
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DIRECT LINK TO PROJECTS & CONTACT -->
+
+                <div class="text-center mt-4">
+                    <a href="projects.html" class="btn btn-outline-info btn-lg me-3">View Projects</a>
+                    <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Me</a>
+                </div>
+                <!-- FOOTER -->
+
+                <div class="container">
+                    <footer class="py-3 my-4">
+                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="text-center text-body-secondary">© Shameel Shajaad</p>
+                    </footer>
+                </div>
+                <script src="assets/js/app.js"></script>
+</body>
+
 </html>
